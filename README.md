@@ -9,18 +9,18 @@ Este proyecto iOS te permite ver tu localización en tiempo real utilizando la t
 - Registro de información sobre las localizaciones del usuario
 - Enviado de emails con registros en archivos .txt
 
-## Technologies Used
+## Tecnologías usadas
 - CocoaPods
 - FirebaseAuth
 - GoogleSignIn
 - Firebase
 
-## Installation
+## Instalación
 1. Clonar o descargar el proyecto desde el repositorio
 2. Correr el comando 'pod install" en el directorio del proyecto para instalar las dependencias necesarias
 3. Abrir el proyecto en Xcode y correrlo en un simulador o un dispositivo conectado
 
-##Warnings
+## Advertencias
 Si la aplicación presenta un crash al momento de entrar en background, se deberá de hacer lo siguiente:
 1. En Xcode, en el menú superior, se navegará a Product -> Scheme -> Edit Sheme
 2. En el menú lateral izquierdo, seleccionar Run/Debud
