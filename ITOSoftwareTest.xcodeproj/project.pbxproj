@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFD3F22938C031203D58ACC /* Pods_ITOSoftwareTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D95B97A15BA8814852B0988 /* Pods_ITOSoftwareTest.framework */; };
+		47344E9629820CF200E5E5FB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47344E9529820CF200E5E5FB /* Location.swift */; };
+		479D863F2980587500F872D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D863E2980587500F872D2 /* AppDelegate.swift */; };
+		479D86412980587500F872D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D86402980587500F872D2 /* SceneDelegate.swift */; };
+		479D86432980587500F872D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D86422980587500F872D2 /* LoginViewController.swift */; };
+		479D86482980587600F872D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479D86472980587600F872D2 /* Assets.xcassets */; };
+		479D864B2980587600F872D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479D86492980587600F872D2 /* LaunchScreen.storyboard */; };
+		479D86562980C46E00F872D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479D86552980C46E00F872D2 /* GoogleService-Info.plist */; };
+		479D86582980CBC800F872D2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D86572980CBC800F872D2 /* MapViewController.swift */; };
+		479D865A2980CC6300F872D2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D86592980CC6300F872D2 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D95B97A15BA8814852B0988 /* Pods_ITOSoftwareTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITOSoftwareTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47344E9529820CF200E5E5FB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		479D863B2980587500F872D2 /* ITOSoftwareTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITOSoftwareTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		479D863E2980587500F872D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		479D86402980587500F872D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		479D86422980587500F872D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		479D86472980587600F872D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479D864A2980587600F872D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		479D864C2980587600F872D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479D86522980589F00F872D2 /* ITOSoftwareTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ITOSoftwareTest.entitlements; sourceTree = "<group>"; };
+		479D86552980C46E00F872D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		479D86572980CBC800F872D2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		479D86592980CC6300F872D2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6D911DF2C3717C4D2867EC20 /* Pods-ITOSoftwareTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITOSoftwareTest.release.xcconfig"; path = "Target Support Files/Pods-ITOSoftwareTest/Pods-ITOSoftwareTest.release.xcconfig"; sourceTree = "<group>"; };
+		726043749C93FE22CCD136C3 /* Pods-ITOSoftwareTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITOSoftwareTest.debug.xcconfig"; path = "Target Support Files/Pods-ITOSoftwareTest/Pods-ITOSoftwareTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479D86382980587500F872D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFD3F22938C031203D58ACC /* Pods_ITOSoftwareTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479D86322980587500F872D2 = {
+			isa = PBXGroup;
+			children = (
+				479D863D2980587500F872D2 /* ITOSoftwareTest */,
+				479D863C2980587500F872D2 /* Products */,
+				D43AD12BB8D39DF446998640 /* Pods */,
+				F266A354E859B652B68F74D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		479D863C2980587500F872D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479D863B2980587500F872D2 /* ITOSoftwareTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479D863D2980587500F872D2 /* ITOSoftwareTest */ = {
+			isa = PBXGroup;
+			children = (
+				479D86522980589F00F872D2 /* ITOSoftwareTest.entitlements */,
+				479D863E2980587500F872D2 /* AppDelegate.swift */,
+				479D86402980587500F872D2 /* SceneDelegate.swift */,
+				479D86422980587500F872D2 /* LoginViewController.swift */,
+				479D86572980CBC800F872D2 /* MapViewController.swift */,
+				47344E9529820CF200E5E5FB /* Location.swift */,
+				479D86592980CC6300F872D2 /* Utils.swift */,
+				479D86472980587600F872D2 /* Assets.xcassets */,
+				479D86492980587600F872D2 /* LaunchScreen.storyboard */,
+				479D86552980C46E00F872D2 /* GoogleService-Info.plist */,
+				479D864C2980587600F872D2 /* Info.plist */,
+			);
+			path = ITOSoftwareTest;
+			sourceTree = "<group>";
+		};
+		D43AD12BB8D39DF446998640 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				726043749C93FE22CCD136C3 /* Pods-ITOSoftwareTest.debug.xcconfig */,
+				6D911DF2C3717C4D2867EC20 /* Pods-ITOSoftwareTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F266A354E859B652B68F74D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B97A15BA8814852B0988 /* Pods_ITOSoftwareTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479D863A2980587500F872D2 /* ITOSoftwareTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479D864F2980587600F872D2 /* Build configuration list for PBXNativeTarget "ITOSoftwareTest" */;
+			buildPhases = (
+				59423159543C43EB848AD082 /* [CP] Check Pods Manifest.lock */,
+				479D86372980587500F872D2 /* Sources */,
+				479D86382980587500F872D2 /* Frameworks */,
+				479D86392980587500F872D2 /* Resources */,
+				A1D144291CFDD698101678A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITOSoftwareTest;
+			productName = ITOSoftwareTest;
+			productReference = 479D863B2980587500F872D2 /* ITOSoftwareTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479D86332980587500F872D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					479D863A2980587500F872D2 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 479D86362980587500F872D2 /* Build configuration list for PBXProject "ITOSoftwareTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 479D86322980587500F872D2;
+			productRefGroup = 479D863C2980587500F872D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479D863A2980587500F872D2 /* ITOSoftwareTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479D86392980587500F872D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479D864B2980587600F872D2 /* LaunchScreen.storyboard in Resources */,
+				479D86562980C46E00F872D2 /* GoogleService-Info.plist in Resources */,
+				479D86482980587600F872D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59423159543C43EB848AD082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ITOSoftwareTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D144291CFDD698101678A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ITOSoftwareTest/Pods-ITOSoftwareTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ITOSoftwareTest/Pods-ITOSoftwareTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ITOSoftwareTest/Pods-ITOSoftwareTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479D86372980587500F872D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479D865A2980CC6300F872D2 /* Utils.swift in Sources */,
+				479D86432980587500F872D2 /* LoginViewController.swift in Sources */,
+				479D86582980CBC800F872D2 /* MapViewController.swift in Sources */,
+				479D863F2980587500F872D2 /* AppDelegate.swift in Sources */,
+				47344E9629820CF200E5E5FB /* Location.swift in Sources */,
+				479D86412980587500F872D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		479D86492980587600F872D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479D864A2980587600F872D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		479D864D2980587600F872D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		479D864E2980587600F872D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479D86502980587600F872D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726043749C93FE22CCD136C3 /* Pods-ITOSoftwareTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ITOSoftwareTest/ITOSoftwareTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 755WHAUKC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ITOSoftwareTest/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Program requires GPS to track cars and job orders";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Program requires GPS to track cars and job orders";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Program requires GPS to track cars and job orders";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba.ITOSoftwareTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		479D86512980587600F872D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D911DF2C3717C4D2867EC20 /* Pods-ITOSoftwareTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ITOSoftwareTest/ITOSoftwareTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 755WHAUKC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ITOSoftwareTest/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Program requires GPS to track cars and job orders";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Program requires GPS to track cars and job orders";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Program requires GPS to track cars and job orders";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba.ITOSoftwareTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479D86362980587500F872D2 /* Build configuration list for PBXProject "ITOSoftwareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479D864D2980587600F872D2 /* Debug */,
+				479D864E2980587600F872D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479D864F2980587600F872D2 /* Build configuration list for PBXNativeTarget "ITOSoftwareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479D86502980587600F872D2 /* Debug */,
+				479D86512980587600F872D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479D86332980587500F872D2 /* Project object */;
+}
